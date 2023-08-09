@@ -1,0 +1,29 @@
+.CharacterList {
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 15px;
+  div {
+    display: block;
+    min-width: 200px;
+    padding: 15px;
+    height: 100%;
+    text-align: center;
+    color: #444;
+    border: 1px solid #999;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+  }
+}
