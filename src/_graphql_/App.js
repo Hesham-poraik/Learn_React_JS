@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router';
 import './App.scss';
-import CharactersList from './_graphql_/pages/CharactersList';
-import Character from './_graphql_/pages/Character';
-import Search from './_graphql_/pages/Search';
+import CharactersList from './pages/CharactersList';
+import Character from './pages/Character';
+import Search from './pages/Search';
 
 function App() {
   return (
